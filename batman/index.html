@@ -2,11 +2,13 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Batman</title>
 </head>
@@ -78,10 +80,50 @@
                 </div>
             </div>
             <h1 class="main__header">Бэтмен</h1>
-            <div class="main__description">
-                После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен становится олицетворением беспощадного возмездия. Когда в городе происходит серия жестоких нападений на представителей элиты, загадочные улики приводят Брюса Уэйна в самые темные закоулки преступного мира. Теперь под прицелом оказывается сам Бэтмен.
+            <div class="main__description-wrap">
+                <div class="main__description">
+                    После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен становится олицетворением беспощадного возмездия. Когда в городе происходит серия жестоких нападений на представителей элиты, загадочные улики приводят Брюса Уэйна в самые темные закоулки преступного мира. Теперь под прицелом оказывается сам Бэтмен.
+                </div>
+                <div class="main__button-play">
+                    <div class="main__button-dark">
+                        <img src="img/play-icon.svg" alt="">
+                    </div>
+                </div>
             </div>
             <a href="#" class="main__button">Купить билеты</a>
+            <div class="main-slider__wrap">
+                <div class="main-slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide-1.jpg" alt="">
+                            <span>Трейлер #1</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide-2.jpg" alt="">
+                            <span>Трейлер #2</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide-1.jpg" alt="">
+                            <span>Трейлер #3</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide-2.jpg" alt="">
+                            <span>Трейлер #4</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide-1.jpg" alt="">
+                            <span>Трейлер #5</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide-2.jpg" alt="">
+                            <span>Трейлер #6</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-slider__arrow">
+                    <img src="img/arrow-slider.svg" alt="">
+                </div>
+            </div>
         </div>
     </main>
 
@@ -103,5 +145,7 @@
             </ul>
         </div>
     </footer>
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
