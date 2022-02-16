@@ -29,6 +29,13 @@
 .btn {
   color: white;
   font-size: 30px;
+  border-radius: 100%;
+}
+.button__active {
+  color: #212529;
+  background-color: #fff;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
 }
 @media (min-width: 768px) {
   .navbar-container {
@@ -70,5 +77,9 @@
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
+    font-size: 20px;
+  }
+  .navbar-dark .navbar-brand {
+    font-size: 24px;
   }
 }
