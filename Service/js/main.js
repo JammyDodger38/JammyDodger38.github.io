@@ -8,13 +8,13 @@ const menu = function () {
                 item.classList.remove('button__active')
             })
             if (index == 0) {
-                document.location.href = "./profile.html"
+                document.location.href = "https://jammydodger38.github.io/Service/profile.html"
 
             } else if (index == 1) {
-                document.location.href = "./messages.html"
+                document.location.href = "https://jammydodger38.github.io/Service/messages.html"
 
             } else {
-                document.location.href = "./bell.html"
+                document.location.href = "https://jammydodger38.github.io/Service/bell.html"
             }
         })
     })
