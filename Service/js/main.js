@@ -8,13 +8,13 @@ const menu = function () {
                 item.classList.remove('button__active')
             })
             if (index == 0) {
-                document.location.href = "http://127.0.0.1:5500/profile.html"
+                document.location.href = "./profile.html"
 
             } else if (index == 1) {
-                document.location.href = "http://127.0.0.1:5500/messages.html"
+                document.location.href = "./messages.html"
 
             } else {
-                document.location.href = "http://127.0.0.1:5500/bell.html"
+                document.location.href = "./bell.html"
             }
         })
     })
