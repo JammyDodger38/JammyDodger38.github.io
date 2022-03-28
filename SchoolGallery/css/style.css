@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/bg-image.jpg);
+    background-size: cover;
+}
+
+.fotorama__caption {
+    font-size: 18px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu-btn {
+    font-size: 20px;
+    width: 100%;
+}
+
+.fotorama__wrap {
+    margin: 0 auto;
+}
+
+.album_year {
+    margin-top: 30px;
+}
+
+@media (max-width: 991px) {
+    .main {
+        background-position: top right;
+    }
+}
